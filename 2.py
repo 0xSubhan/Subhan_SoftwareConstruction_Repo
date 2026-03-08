@@ -24,7 +24,7 @@ def handle_click(event):
     print(f'location X={event.x} , Y={event.y}')
 
 def handle_key(event):
-    print(f'Key = {event.char}')
+    print(f'Key  = {event.char}')
 
 button = tk.Button(window,text='Button Location!')
 button.pack()
