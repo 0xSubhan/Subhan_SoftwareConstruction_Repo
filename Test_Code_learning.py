@@ -40,3 +40,4 @@ WHITE_SQUARE = '||'
 BLACK_SQUARE = '  '
 
 print(BOARD_TEMPLATE)
+print("Lab Work!")
