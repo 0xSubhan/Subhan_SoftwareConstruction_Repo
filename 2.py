@@ -31,7 +31,7 @@ button.pack()
 
 entry = tk.Entry(window)
 entry.pack()
-
+# Ya bind kyu kiya ha , ya baad ma dekh lein! mera kiyal sa bind method ha button class ka, baad ma!
 button.bind("<Button-1>",handle_click)
 entry.bind("<Key>",handle_key)
 
