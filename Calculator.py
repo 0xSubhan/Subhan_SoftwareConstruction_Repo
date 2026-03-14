@@ -3,6 +3,10 @@ import tkinter as tk
 root = tk.Tk()
 root.title("Calculator")
 
+icon = tk.PhotoImage(file='/home/subhan/Desktop/calculator_3534.png')
+root.iconphoto(True,icon)
+
+
 main_entry_field = tk.Entry(root,width=35,borderwidth=10)
 main_entry_field.grid(row=0,column=0,columnspan=3)
 

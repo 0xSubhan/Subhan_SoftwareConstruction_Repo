@@ -1,4 +1,5 @@
 import tkinter as tk
+from PIL import ImageTk , Image
 
 
 window = tk.Tk()
@@ -22,6 +23,11 @@ entry.pack()
 
 button = tk.Button(window,text="Submit",command=take)
 button.pack()
+
+my_img = ImageTk.PhotoImage(Image.open("/home/subhan/Pictures/mugiwara-the-illustration-vector.jpg"))
+my_label = tk.Label(window,image=my_img)
+my_label.pack()
+
 
 window.mainloop()
 
